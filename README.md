@@ -7,21 +7,21 @@ This project is developed using a spec-driven development approach, where featur
 The application is built as part of the Kiro platform, focusing on clean architecture, scalability, and ease of use.
 
 🚀 Features
-Create, update, and delete tasks
-Mark tasks as completed
-Organize tasks effectively
-Simple and user-friendly interface
+1. Create, update, and delete tasks
+2. Mark tasks as completed
+3. Organize tasks effectively
+4. Simple and user-friendly interface
+   
 🛠️ Tech Approach
-
 This project follows:
-
-Spec-Driven Development: Every feature starts from a clear specification
-Modular and maintainable structure
-Clean and readable code practices
+1. Spec-Driven Development: Every feature starts from a clear specification
+2. Modular and maintainable structure
+3. Clean and readable code practices
+   
 📌 Purpose
-
 The main goal of this project is to:
-
-Practice structured development using specifications
+1. Practice structured development using specifications
+2. Build a functional and scalable TodoList application
+3. Demonstrate how spec-driven development can improve workflow
 Build a functional and scalable TodoList application
 Demonstrate how spec-driven development can improve workflow
