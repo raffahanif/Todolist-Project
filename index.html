@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todolist App</title>
+    <!--<link rel="stylesheet" href="/src/styles/main.css" /> -->
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Todolist</h1>
+      </header>
+
+      <main>
+        <!-- Input section: Requirement 1.1 -->
+        <section id="input-section">
+          <form id="todo-form">
+            <input
+              type="text"
+              id="todo-input"
+              placeholder="Tambahkan tugas baru..."
+              autocomplete="off"
+              aria-label="Judul todo baru"
+            />
+            <button type="submit" id="add-btn">Tambah</button>
+          </form>
+          <p id="input-error" class="error-message" aria-live="polite"></p>
+        </section>
+
+        <!-- Filter section: Requirement 6.1 -->
+        <section id="filter-section">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="active">Belum Selesai</button>
+          <button class="filter-btn" data-filter="completed">Selesai</button>
+        </section>
+
+        <!-- Todo list: Requirement 2.1 -->
+        <section id="list-section">
+          <ul id="todo-list" aria-label="Daftar todo"></ul>
+          <p id="empty-message" class="empty-message">
+            Belum ada tugas yang ditambahkan.
+          </p>
+        </section>
+
+        <!-- Summary and bulk actions -->
+        <section id="summary-section">
+          <p id="summary">0 / 0 tugas selesai</p>
+          <button id="clear-completed-btn" disabled>
+            Hapus Semua yang Selesai
+          </button>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
