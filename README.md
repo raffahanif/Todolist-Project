@@ -23,5 +23,3 @@ The main goal of this project is to:
 1. Practice structured development using specifications
 2. Build a functional and scalable TodoList application
 3. Demonstrate how spec-driven development can improve workflow
-Build a functional and scalable TodoList application
-Demonstrate how spec-driven development can improve workflow
